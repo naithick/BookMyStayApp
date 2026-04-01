@@ -1,3 +1,5 @@
+package feature;
+
 /**
  * ======================================================================
  * MAIN CLASS - UseCase7AddOnServiceSelection
