@@ -66,4 +66,11 @@ public class BookingRequestQueue {
         }
         System.out.println("Total requests pending: " + requestQueue.size() + "\n");
     }
+    /**
+     * Retrieves and removes the next request from the queue.
+     * @return the next Reservation, or null if the queue is empty
+     */
+    public Reservation poll() {
+        return requestQueue.poll();
+    }
 }
